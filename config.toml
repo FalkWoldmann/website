@@ -1,0 +1,11 @@
+theme = "apollo"
+base_url = "https://woldmann.com"
+
+[extra]
+theme = "auto"
+socials = [
+  { name = "github", url = "https://github.com/FalkWoldmann/", icon = "github" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/falk-woldmann/", icon = "linkedin" },
+  { name = "email", url = "mailto:hi@woldmann.com", icon = "email" },
+]
+menu =  []
