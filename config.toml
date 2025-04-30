@@ -1,6 +1,6 @@
 theme = "apollo"
 base_url = "https://woldmann.com"
-
+description = "Homepage of Falk Woldmann"
 [extra]
 theme = "auto"
 socials = [
