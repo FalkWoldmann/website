@@ -1,8 +1,8 @@
 theme = "apollo"
 base_url = "https://woldmann.com"
-title = "Falk Woldmann's Homepage"
-description = "This is the personal homepage of Falk Woldmann. I am a senior software developer with a passion for building great products and with a constant drive for further improvement and a passion for continuously learning new technologies and methods."
-author = "Falk Woldmann"
+title = "Falk Woldmann Lu's Homepage"
+description = "This is the personal homepage of Falk Woldmann Lu. I am a senior software developer with a passion for building great products and with a constant drive for further improvement and a passion for continuously learning new technologies and methods."
+author = "Falk Woldmann Lu"
 minify_html = true
 
 [extra]
