@@ -1,0 +1,20 @@
+[tools]
+zola = "0.23.6"
+typst = "0.15.1"
+
+[tasks.cv]
+description = "Compile the Typst CV to PDF"
+run = """
+mkdir -p static/cv
+typst compile cv/cv.typ static/cv/falk-woldmann-lu-cv.pdf
+"""
+
+[tasks.build]
+description = "Build the CV and the Zola website"
+depends = ["cv"]
+run = "zola build"
+
+[tasks.serve]
+description = "Serve the CV and Zola website locally"
+depends = ["cv"]
+run = "zola serve --interface 127.0.0.1 --port 1111"

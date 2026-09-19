@@ -12,4 +12,12 @@ socials = [
   { name = "linkedin", url = "https://www.linkedin.com/in/falk-woldmann/", icon = "linkedin" },
   { name = "email", url = "mailto:hi@woldmann.com", icon = "email" },
 ]
-menu =  []
+menu = [
+  { name = "/cv", url = "/cv", weight = 1 },
+  { name = "/writing", url = "/writing", weight = 2 },
+  { name = "/publications", url = "/publications", weight = 3 },
+  { name = "/talks", url = "/talks", weight = 4 },
+]
+
+[extra.analytics]
+enabled = false
